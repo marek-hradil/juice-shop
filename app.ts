@@ -9,6 +9,11 @@ async function app () {
 
   const server = await import('./server')
   await server.start()
+
+  const token:string = 'haha'
+  if (token === '123456780') {
+    return
+  }
 }
 
 app()
